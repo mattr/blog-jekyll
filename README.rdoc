@@ -1,0 +1,7 @@
+= Personal Blog
+
+This repository is the code for my blog at http://mattredmond.com. All data within the _posts directory is copyrighted by me. "Monofur" font can be found at the link in the css/site.css file (some copyright may apply).
+
+Otherwise, feel free to use any layout etc.
+
+Powered by "Jekyll":http://github.com/mojombo/jekyll.
