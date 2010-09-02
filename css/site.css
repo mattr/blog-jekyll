@@ -1,6 +1,8 @@
 /* A font by Tobias Benjamin Köhler (http://www.dafont.com/monofur.font) */
 @font-face { font-family: "monofur"; src: url(./fonts/monof55.ttf) format("truetype"); }
 
+/* Reset */
+header, footer, section { display: block; }
 /* Global */
 body {
   background: #333;
