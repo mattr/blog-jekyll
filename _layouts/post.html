@@ -22,11 +22,12 @@
           <hr />
           <div id="related">
             <h2>Related Posts</h2>
-            <ul class="posts">
+            <dl class="posts">
               {% for post in site.related_posts limit:3 %}
-                <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.base }}{{ post.url }}">{{ post.title }}</a></li>
+                <dt>{{ post.date | date_to_string }}</dt>
+                <dd><a href="{{ site.base }}{{ post.url }}">{{ post.title }}</a></dd>
               {% endfor %}
-            </ul>
+            </dl>
           </div>
           <hr />
           {% if site.disqus %}

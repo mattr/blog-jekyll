@@ -120,12 +120,12 @@ footer a:hover {
   font-size: 9px;
   line-height: 100%;
 }
-#archive dt {
+#archive dt, #related dt {
   float: left;
   width: 7.5em;
 }
 
-#archive dd {
+#archive dd, #related dd {
   clear: right;
   margin-left: 2em;
 }
