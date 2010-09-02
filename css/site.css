@@ -1,0 +1,131 @@
+/* A font by Tobias Benjamin Köhler (http://www.dafont.com/monofur.font) */
+@font-face { font-family: "monofur"; src: url(./fonts/monof55.ttf) format("truetype"); }
+
+/* Global */
+body {
+  background: #333;
+  color: #eee;
+  font: 13px HelveticaNeue-Light, "helvetica neue", arial, helvetica, sans-serif;
+  line-height: 140%;
+}
+h1 {
+  font-weight: normal;
+  margin: 0;
+  padding: 5px 0;
+  line-height: 100%;
+}
+h2 {
+  font-size: 17px;
+  font-weight: normal;
+}
+blockquote, pre {
+  background: #fcfcfc;
+  margin-left: 25px;
+  margin-right: 25px;
+  padding: 10px;
+}
+code {
+  font-family: "monofur", "courier new", courier;
+  line-height: 110%;
+}
+p, li {
+  text-align: justify;
+}
+a {
+  color: #666;
+  text-decoration: underline;
+}
+a:visited {
+  color: #333;
+  text-decoration: underline;
+}
+a:hover {
+  color: #000;
+  text-decoration: none;
+}
+header, footer {
+  letter-spacing: .5em;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+footer {
+  font-size: 11px;
+  line-height: 180%;
+  text-align: center;
+}
+footer a, footer a:visited {
+  color: #eee;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* Page */
+#wrapper {
+  margin: auto;
+  width: 740px;
+}
+#logo {
+  text-transform: lowercase;
+}
+#logo h1, #logo #author {
+  font-size: 23px;
+  font-weight: normal;
+  padding: 5px 0;
+}
+#logo h1 a {
+  color: #eee;
+  text-decoration: none;
+}
+#logo h1 a:hover {
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: 2s;
+}
+#content {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#main {
+  background: #eee;
+  color: #333;
+  margin-left: 0;
+  margin-right: 10px;
+  padding: 20px;
+  width: 700px;
+}
+.post h1 {
+  font-size: 19px;
+}
+.post h1 a, .post h1 a:visited {
+  color: #333;
+  text-decoration: none;
+}
+.post h1 a:hover {
+  text-decoration: underline;
+}
+.post .more, .post #related {
+  font-size: 11px;
+}
+.post #related h2 {
+  font-size: 13px;
+}
+
+.post #disqus_thread {
+  font-size: 11px;
+}
+.post .date {
+  font-size: 9px;
+  line-height: 100%;
+}
+#archive dt {
+  float: left;
+  width: 7.5em;
+}
+
+#archive dd {
+  clear: right;
+  margin-left: 2em;
+}

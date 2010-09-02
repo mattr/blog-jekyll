@@ -1,0 +1,20 @@
+---
+layout: default
+title: In touch with the obvious. Mostly.
+---
+{% for post in site.posts limit:5 %}
+<div class="post">
+  <h1><a href="{{ site.base }}{{ post.url }}">{{ post.title }}</a></h1>
+  <span class="date">{{ post.date | date_to_string }}</span>
+  <div class="entry">
+    {{ post.content }}
+  </div>
+  <p class="more">
+    <a href="{{ site.base }}{{ post.url }}" title="{{ post.title }}">More</a>
+    |
+    <a href="{{ site.base }}{{ post.url }}#disqus_thread">Comments</a>
+  </p>
+</div>
+<hr />
+{% endfor %}
+<a href="{{ site.base }}/archive">Archive</a>
