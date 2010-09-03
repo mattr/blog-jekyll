@@ -5,7 +5,10 @@
   <meta name="description" content="{{ page.summary }}" />
   <meta name="keywords" content="{{ tags }}" />
   <title>{{ site.title }}</title>
-  <link href="/css/site.css" rel="stylesheet" type="text/css" media="screen,projection" />
+  <link href="{{ site.base }}/css/site.css" rel="stylesheet" type="text/css" media="screen,projection" />
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
 </head>
 <body>
   <div id="wrapper">
@@ -36,7 +39,7 @@
           </div>
           {% endif %}
           <hr />
-          <a href="/archive">Archive</a>
+          <a href="{{ site.base }}/archive">Archive</a>
       </div>
     </div>
   

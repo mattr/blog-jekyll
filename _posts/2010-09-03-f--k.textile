@@ -1,0 +1,20 @@
+---
+title: F**k script
+layout: post
+---
+I frequently find myself frustrated by various things while working at the command line (usually due to my own idiocy, or external factors -- the actual command line itself gets much love). So I wrote this little frustration script, named "<code>fuck</code>", which resides in <code>/usr/local/bin</code> and is called with one or more arguments:
+
+{% highlight ruby linenos %}
+#!/usr/bin/env ruby
+
+epithet = ARGV.join ' '
+if epithet =~ /^you.*$/i
+  puts "Yeah? Well, same to you too, buddy!"
+elsif epithet =~ /^me.*$/i
+  puts "Awww. What's the matter, buttercup?"
+elsif epithet =~ /^off.*$/i
+  puts "Yeah, just take your ball and go home, precious."
+else
+  puts "Not likely, champ."
+end
+{% endhighlight %}

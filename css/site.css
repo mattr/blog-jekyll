@@ -1,5 +1,5 @@
 /* A font by Tobias Benjamin Köhler (http://www.dafont.com/monofur.font) */
-@font-face { font-family: "monofur"; src: url(./fonts/monof55.ttf) format("truetype"); }
+@font-face { font-family: "monofur"; src: url(./fonts/monof5*.ttf) format("truetype"); }
 
 /* Reset */
 header, footer, section { display: block; }
@@ -7,7 +7,7 @@ header, footer, section { display: block; }
 body {
   background: #333;
   color: #eee;
-  font: 13px HelveticaNeue-Light, "helvetica neue", arial, helvetica, sans-serif;
+  font: 13px Cantarell, HelveticaNeue-Light, "helvetica neue", arial, sans-serif;
   line-height: 140%;
 }
 h1 {
@@ -72,9 +72,12 @@ footer a:hover {
 #logo {
   text-transform: lowercase;
 }
-#logo h1, #logo #author {
+#logo h1 {
   font-size: 23px;
   font-weight: normal;
+  padding: 5px 0;
+}
+#logo p {
   padding: 5px 0;
 }
 #logo h1 a {
@@ -129,5 +132,13 @@ footer a:hover {
 
 #archive dd, #related dd {
   clear: right;
+  margin-bottom: 5px;
   margin-left: 2em;
 }
+
+/* Syntax highlighting */
+.lineno { color: #00c; padding-right: 10px; }
+.c1 { color: #906030; font-style: italic; }
+.k, .nb { color: #303060; }
+.o, .mi { color: #00c; }
+.s2, .sr { color: #306030; }
