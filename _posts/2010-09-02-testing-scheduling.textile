@@ -1,6 +1,0 @@
----
-title: Testing Scheduling
-layout: post
----
-Quick post to test that scheduling for publication of posts is working.
-
