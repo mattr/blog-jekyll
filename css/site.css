@@ -1,5 +1,5 @@
-/* A font by Tobias Benjamin Köhler (http://www.dafont.com/monofur.font) */
-@font-face { font-family: "monofur"; src: url(./fonts/monof5*.ttf) format("truetype"); }
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+@import url(http://fonts.googleapis.com/css?family=Inconsolata);
 
 /* Reset */
 header, footer, section { display: block; }
@@ -7,8 +7,8 @@ header, footer, section { display: block; }
 body {
   background: #333;
   color: #eee;
-  font: 13px Cantarell, HelveticaNeue-Light, "helvetica neue", arial, sans-serif;
-  line-height: 140%;
+  font: lighter 13px/1.8 "Droid Sans", "helvetica neue", arial, sans-serif;
+/*  line-height: 140%;*/
 }
 h1 {
   font-weight: normal;
@@ -27,8 +27,8 @@ blockquote, pre {
   padding: 10px;
 }
 code {
-  font-family: "monofur", "courier new", courier;
-  line-height: 110%;
+  font-family: Inconsolata, "courier new", courier;
+  line-height: 100%;
 }
 p, li {
   text-align: justify;

@@ -8,7 +8,7 @@ layout: nil
   <link href="{{ site.base }}/atom.xml" rel="self" />
   <link href="{{ site.base }}" rel="alternate" />
   <updated>{{ site.time | date_to_xmlschema }}</updated>
-  <id>{{ site.base }}</id>
+  <id>http://mattredmond.com/{{ site.base }}</id>
   <author>
     <name>{{ site.author }}</name>
     <email>{{ site.email }}</email>
@@ -17,6 +17,7 @@ layout: nil
   {% for post in site.posts limit:10 %}
   <entry>
     <title>{{ post.title }}</title>
+    <id>http://mattredmond.com/{{ site.base }}{{ post.url }}</id>
     <link href="{{ site.base }}{{ post.url }}" />
     <updated>{{ post.date | date_to_xmlschema }}</updated>
     <content type="html">{{ post.content | xml_escape }}</content>
