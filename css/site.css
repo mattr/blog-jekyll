@@ -1,14 +1,14 @@
 @import url(http://fonts.googleapis.com/css?family=Molengo);
 @import url(http://fonts.googleapis.com/css?family=Inconsolata);
 
+
 /* Reset */
 header, footer, section { display: block; }
 /* Global */
 body {
   background: #333;
   color: #eee;
-/*  font: lighter 13px/1.8 "Helvetica Neue Light", "Helvetica Neue", "Droid Sans", arial, sans-serif;*/
-  font: lighter 13px/1.8 "Molengo", arial, helvetica, sans-serif;
+  font: lighter 13px/1.8 Molengo, arial, helvetica, sans-serif;
 }
 h1 {
   font-weight: normal;
