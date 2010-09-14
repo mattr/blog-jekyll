@@ -1,0 +1,7 @@
+---
+title: About
+layout: default
+---
+Matt Redmond is a web developer, "musician":http://artinexile.net, wannabe game programmer and artist, and a member of the "Pirate Party of Australia":http://pirateparty.org.au.
+
+If you absolutely must, you can email me at signs &lt;dot&gt; of &lt;dot&gt; antilife &lt;at&gt; gmail &lt;dot&gt; com.

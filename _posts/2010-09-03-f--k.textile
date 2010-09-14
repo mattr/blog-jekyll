@@ -6,6 +6,7 @@ I frequently find myself frustrated by various things while working at the comma
 
 {% highlight ruby linenos %}
 #!/usr/bin/env ruby
+
 epithet = ARGV.join ' '
 if epithet =~ /^you.*$/i
   puts "Yeah? Well, same to you too, buddy!"

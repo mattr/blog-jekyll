@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+@import url(http://fonts.googleapis.com/css?family=Molengo);
 @import url(http://fonts.googleapis.com/css?family=Inconsolata);
 
 /* Reset */
@@ -7,8 +7,8 @@ header, footer, section { display: block; }
 body {
   background: #333;
   color: #eee;
-  font: lighter 13px/1.8 "Droid Sans", "helvetica neue", arial, sans-serif;
-/*  line-height: 140%;*/
+/*  font: lighter 13px/1.8 "Helvetica Neue Light", "Helvetica Neue", "Droid Sans", arial, sans-serif;*/
+  font: lighter 13px/1.8 "Molengo", arial, helvetica, sans-serif;
 }
 h1 {
   font-weight: normal;
@@ -27,8 +27,7 @@ blockquote, pre {
   padding: 10px;
 }
 code {
-  font-family: Inconsolata, "courier new", courier;
-  line-height: 100%;
+  font: 13px/1.4 Inconsolata, "courier new", courier;
 }
 p, li {
   text-align: justify;
@@ -50,6 +49,21 @@ header, footer {
   margin-left: 10px;
   margin-right: 10px;
 }
+header {
+  position: relative;
+}
+header #links {
+  position: absolute;
+    top: 50px; right: -20px;
+}
+header #links a {
+  color: #ececec;
+  text-decoration: none;
+}
+header #links a:hover {
+  text-decoration: underline;
+}
+
 footer {
   font-size: 11px;
   line-height: 180%;
@@ -62,6 +76,12 @@ footer a, footer a:visited {
 footer a:hover {
   color: #fff;
   text-decoration: underline;
+}
+
+.clear {
+  clear: both;
+  display: block;
+  float: none;
 }
 
 /* Page */
@@ -114,6 +134,21 @@ footer a:hover {
 .post .more, .post #related {
   font-size: 11px;
 }
+.post #navigation {
+  height: 30px;
+  margin-top: 20px;
+  position: relative;
+}
+.post #navigation a {
+  position: absolute;
+  top: 0;
+}
+.post #navigation a#previous {
+  left: 0;
+}
+.post #navigation a#next {
+  right: 0;
+}
 .post #related h2 {
   font-size: 13px;
 }
@@ -122,7 +157,7 @@ footer a:hover {
   font-size: 11px;
 }
 .post .date {
-  font-size: 9px;
+  font-size: 11px;
   line-height: 100%;
 }
 #archive dt, #related dt {
