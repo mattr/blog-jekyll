@@ -8,7 +8,7 @@ header, footer, section { display: block; }
 body {
   background: #333;
   color: #eee;
-  font: lighter 13px/1.8 Molengo, arial, helvetica, sans-serif;
+  font: 300 13px/1.8 Molengo, arial, helvetica, sans-serif;
 }
 h1 {
   font-weight: normal;
@@ -32,6 +32,9 @@ code {
 p, li {
   text-align: justify;
 }
+strong {
+  font-weight: 700;
+}
 a {
   color: #666;
   text-decoration: underline;
@@ -50,20 +53,10 @@ header, footer {
   margin-right: 10px;
 }
 header {
+  height: 80px;
   position: relative;
+  text-transform: lowercase;
 }
-header #links {
-  position: absolute;
-    top: 50px; right: -20px;
-}
-header #links a {
-  color: #ececec;
-  text-decoration: none;
-}
-header #links a:hover {
-  text-decoration: underline;
-}
-
 footer {
   font-size: 11px;
   line-height: 180%;
@@ -84,30 +77,45 @@ footer a:hover {
   float: none;
 }
 
+/* Header */
+#logo {
+  font-size: 23px;
+  font-weight: normal;
+  padding: 5px 0;
+  position: absolute;
+    top: 0; left: 0;
+}
+#logo a {
+  color: #eee;
+  text-decoration: none;
+}
+#logo a:hover {
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: 2s;
+}
+#author {
+  padding: 5px 0;
+  position: absolute;
+    top: 30px; left: 0;
+}
+#links {
+  position: absolute;
+    top: 50px; right: -20px;
+}
+#links a {
+  color: #ececec;
+  text-align: center;
+  text-decoration: none;
+}
+#links a:hover {
+  text-decoration: underline;
+}
+
 /* Page */
 #wrapper {
   margin: auto;
   width: 740px;
-}
-#logo {
-  text-transform: lowercase;
-}
-#logo h1 {
-  font-size: 23px;
-  font-weight: normal;
-  padding: 5px 0;
-}
-#logo p {
-  padding: 5px 0;
-}
-#logo h1 a {
-  color: #eee;
-  text-decoration: none;
-}
-#logo h1 a:hover {
-  color: #fff;
-  text-decoration: none;
-  -webkit-transition: 2s;
 }
 #content {
   margin-left: 10px;
