@@ -10,9 +10,6 @@ body {
   color: #eee;
   font: 300 13px/1.8 Molengo, arial, helvetica, sans-serif;
 }
-* html { /* Internet Explorer Hack */
-  font: 300 13px/1.8 Arial, Helvetica, sans-serif;
-}
 h1 {
   font-weight: normal;
   margin: 0;
