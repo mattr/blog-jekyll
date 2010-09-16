@@ -10,6 +10,9 @@ body {
   color: #eee;
   font: 300 13px/1.8 Molengo, arial, helvetica, sans-serif;
 }
+* html { /* Internet Explorer Hack */
+  font: 300 13px/1.8 Arial, Helvetica, sans-serif;
+}
 h1 {
   font-weight: normal;
   margin: 0;
@@ -82,8 +85,6 @@ footer a:hover {
   font-size: 23px;
   font-weight: normal;
   padding: 5px 0;
-  position: absolute;
-    top: 0; left: 0;
 }
 #logo a {
   color: #eee;
@@ -95,9 +96,8 @@ footer a:hover {
   -webkit-transition: 2s;
 }
 #author {
+  float: left;
   padding: 5px 0;
-  position: absolute;
-    top: 30px; left: 0;
 }
 #links {
   position: absolute;
