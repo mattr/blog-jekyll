@@ -1,0 +1,57 @@
+---
+layout: post
+title: Diaspora developer release
+---
+Two great releases today. Not only is "Diaspora":http://www.joindiaspora.com/2010/09/15/developer-release.html developer release "available":http://github.com/diaspora/diaspora, but also "Passenger 3 Public Beta 1":http://blog.phusion.nl/2010/09/15/phusion-passenger-3-0-0-public-beta-1-is-out/ which now includes a stand-alone option (great for development).
+
+h2. First impressions of Diaspora
+
+Awesome.
+
+* Rails 3;
+* MongoDB with MongoMapper as ORM and MongoHQ as the provider (or localhost if the appropriate environment variable is not set);
+* HAML for views;
+* tested with RSpec and FactoryGirl; and
+* CarrierWave for image uploads.
+
+It reads like a list of Rails Best Practices. I'll be taking inspiration from this for an upgrade I'm currently working on (from Rails 2.3 + MongoMapper + CarrierWave + HAML with limited or no testing).
+
+Looks like the Diaspora website uses Jekyll, too. Just a hunch.
+
+h2. Getting it working
+
+It took about 5 minutes to get up and running. Got a weird error regarding the bundler gem version on first pass.
+
+{% highlight bash %}
+Bundler could not find compatible versions for gem "bundler":
+  In Gemfile:
+    bundler (>= 1.0.0)
+
+  In snapshot (Gemfile.lock):
+    bundler (1.0.0.rc.2)
+{% endhighlight %}
+
+Later (after changing the Gemfile to 1.0.0.rc.2):
+
+{% highlight bash %}
+Bundler could not find compatible versions for gem "bundler":
+  In Gemfile:
+    bundler (= 1.0.0.rc.2)
+
+  In snapshot (Gemfile.lock):
+    bundler (1.0.0)
+{% endhighlight %}
+
+Changed it back to 1.0.0 in the Gemfile and it worked fine.
+
+Changed the protocol from 'http' to 'git' for some repositories. This is due to proxy configuration at work (git and ssh to github work but not http). I'd suggest using the same protocol for all repos in the Gemfile, or documenting why some are http vs git (can't think of a valid reason myself, except as mentioned above in my case).
+
+Decided to try out the brand-spanking new Passenger stand-alone for the server, too.
+
+h2. Notes
+
+* Signup worked fine, but "Name" is not a clear label IMO; I only realised they meant "Username" when I got to the First and Last Name fields below.
+* Got an error message when creating an album (somewhere in the Diaspora::WebSocket class). Still created the album. In fact, it created it again on reposting to the error page. Suggest unique names for albums (or unique by timestamp &agrave; la Jekyll).
+* Linecache gem is not yet compatible with Ruby 1.9. Hopefully this will be fixed soon.
+
+Will add to these as I play around with Diaspora some more.

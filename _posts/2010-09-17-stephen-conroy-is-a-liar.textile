@@ -12,7 +12,7 @@ _No_ filter, anywhere in the world, can be that accurate (without affecting spee
 
 I'm not just talking about the internet, here. It's mathematically impossible to create a perfect filter (i.e. one that filters 100 per cent accurately with no discernible effect on speed). Accuracy is inversely proportional to speed.
 
-bq. <code>f(a)</code> &prop; <code>1/v</code>
+p(equation). f(a) &prop; 1/v %(eqNo)@(1)@%
 
 Think of it like a sieve. Not using a sieve is faster than using a sieve, but you don't get any filtering. The coarser your sieve, the faster the contents will pass through, but with more impurities. The finer you make the sieve, the less crap that gets through, but you pay a price in the flow rate and will prevent things from getting through that should.
 

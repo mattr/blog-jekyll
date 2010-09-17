@@ -20,14 +20,18 @@ h2 {
   font-size: 17px;
   font-weight: normal;
 }
-blockquote, pre {
+blockquote, pre, .equation {
   background: #fcfcfc;
   margin-left: 25px;
   margin-right: 25px;
   padding: 10px;
 }
-code {
+code, .equation {
   font: 13px/1.4 Inconsolata, "courier new", courier;
+}
+.equation .eqNo {
+  float: right;
+  width: 20px;
 }
 p, li {
   text-align: justify;
