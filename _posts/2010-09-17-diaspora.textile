@@ -55,3 +55,5 @@ h2. Notes
 * Linecache gem is not yet compatible with Ruby 1.9. Hopefully this will be fixed soon.
 
 Will add to these as I play around with Diaspora some more.
+
+*Update (20/09/2010):* "Slashdot":http://news.slashdot.org/story/10/09/17/148242/Security-Concerns-Paramount-After-Early-Reviews-of-Diaspora-Code has brought attention to numerous security flaws. This doesn't change my opinion of Diaspora; it is an extremely early build, after all.
