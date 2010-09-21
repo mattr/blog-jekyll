@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Molengo);
+/*@import url(http://fonts.googleapis.com/css?family=Molengo);*/
 @import url(http://fonts.googleapis.com/css?family=Inconsolata);
 
 
@@ -8,7 +8,7 @@ header, footer, section { display: block; }
 body {
   background: #333;
   color: #eee;
-  font: 300 13px/1.8 Molengo, arial, helvetica, sans-serif;
+  font: 300 13px/1.8 "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
 h1 {
   font-weight: normal;

@@ -1,0 +1,13 @@
+---
+layout: post
+title: 5 easy steps to a simpler blog design
+---
+Over at "Web Designer Depot":http://www.webdesignerdepot.com/2010/09-5-easy-steps-to-a-simpler-blog-design/ is an interesting article on simplifying blog design. Summarised, theses are:
+
+# *Put content front and centre.* Check.
+# *Get rid of unnecessary elements in your posts.* Mostly text, quotations and code blocks. Occasional images. So, check.
+# *Get rid of unnecessary sidebar elements.* Check. Got rid of the entire sidebar.
+# *Shorten the header's height.* Check for the migration from Wordpress. Smaller again with the latest incarnation.
+# *Reduce the number of colours.* 5 shades of grey (excluding syntax highlighting in code).
+
+Personally, I hate cluttered pages. I'm still considering updating these pages to use a lead line for the index page rather than the full post.
