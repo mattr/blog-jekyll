@@ -2,7 +2,7 @@
 layout: post
 title: 5 easy steps to a simpler blog design
 ---
-Over at "Web Designer Depot":http://www.webdesignerdepot.com/2010/09-5-easy-steps-to-a-simpler-blog-design/ is an interesting article on simplifying blog design. Summarised, theses are:
+Over at "Web Designer Depot":http://www.webdesignerdepot.com/2010/09-5-easy-steps-to-a-simpler-blog-design/ is an interesting article on simplifying blog design. Summarised, these are:
 
 # *Put content front and centre.* Check.
 # *Get rid of unnecessary elements in your posts.* Mostly text, quotations and code blocks. Occasional images. So, check.
