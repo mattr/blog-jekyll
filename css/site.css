@@ -7,8 +7,8 @@ header, footer, section { display: block; }
 /* Global */
 body {
   background: #333;
-  color: #eee;
-  font: 300 13px/1.8 "Helvetica Neue", Arial, Helvetica, sans-serif;
+  color: #f9f9f9;
+  font: 400 13px/1.8 "Helvetica Neue", Arial, Helvetica, sans-serif;
 }
 h1 {
   font-weight: normal;
@@ -21,7 +21,7 @@ h2 {
   font-weight: normal;
 }
 blockquote, pre, .equation {
-  background: #fcfcfc;
+  background: #fff;
   margin-left: 25px;
   margin-right: 25px;
   padding: 10px;
@@ -123,7 +123,7 @@ footer a:hover {
   margin-right: 10px;
 }
 #main {
-  background: #eee;
+  background: #f9f9f9;
   color: #333;
   margin-left: 0;
   margin-right: 10px;
