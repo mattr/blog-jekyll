@@ -57,6 +57,7 @@ header, footer {
   margin-right: 10px;
 }
 header {
+  clear: both;
   height: 80px;
   position: relative;
   text-transform: lowercase;
@@ -86,6 +87,7 @@ footer a:hover {
   font-size: 23px;
   font-weight: normal;
   padding: 5px 0;
+  width: 100%;
 }
 #logo a {
   color: #eee;

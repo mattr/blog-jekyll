@@ -1,0 +1,16 @@
+---
+layout: post
+title: Dear Dan
+---
+
+Dear Dan Bull,
+
+You are a legend.
+
+<object width="640" height="385"><param name="movie" value="http://www.youtube.com/v/elUwRb4DroU?fs=1&amp;hl=en_US"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/elUwRb4DroU?fs=1&amp;hl=en_US" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="640" height="385"></embed></object>
+
+That is all.
+
+You can also download "Dan's debut album":http://itsdanbull.com/shop free, or even better, buy a copy.
+
+(Via "Torrent Freak":http://torrentfreak.com/the-death-of-acta-101019/ and "Boing Boing":http://www.boingboing.net/2010/10/20/anti-acta-rap.html)
