@@ -9,6 +9,11 @@
   <!--[if lt IE 9]>
   <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
+  {% if site.disqus_developer == 1 %}
+    <script type="text/javascript">
+      disqus_developer = 1;
+    </script>
+  {% endif %}
 </head>
 <body>
   <div id="wrapper">
