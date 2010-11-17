@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Risen Refused Classification
+title: 'Risen' Refused Classification
 ---
 Several sources have been reporting on the ban of _Risen_, and now "Gamespot":http://au.gamespot.com/news/6215052.html has the full details of the Classification Board's report. I thought I'd support _Risen_'s developers by providing a little 'prior art' where a similar depiction of the banned elements has existed in a game given an MA15+ rating (or below). Anyone interested should feel free to list more games with similar properties in the comments. (This list was compiled from memory; I didn't do any research for it, so it shows how prevalent the prior art is.)
 
