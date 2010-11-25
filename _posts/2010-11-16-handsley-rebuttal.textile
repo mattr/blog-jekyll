@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "R18+ arguments for games don't stack up" arguments don't stack up
+title: "'R18+ arguments for games don't stack up' arguments don't stack up"
 ---
 "Refused classification" is a phenomenon unique to Australia. It sits somewhere in the void between the legitimate and the outright illegal. (With the exception of WA, it is not illegal to own RC material in Australia, merely to sell it or import it.[1])
 
@@ -96,7 +96,7 @@ p. Ultimately, Handsley's position comes across as confused. For a Professor of 
 
 She claims that the classification system needs review, a claim also put forward by the pro-R18+ camp.
 
-She claims that "removal of the evidence of consequences" can still be detrimental. Such modifications are almost always made to accommodate an MA15+ rating (e.g. Left 4 Dead 2, NecroVision). Furthermore, the research to which she alludes relies on a narrow selection of what is available (i.e. Professor Craig Anderson's).
+She claims that "removal of the evidence of consequences" can still be detrimental. Such modifications are almost always made to accommodate an MA15+ rating (e.g. Left 4 Dead 2, NecroVision). Furthermore, the research to which she alludes relies on a narrow selection of what is available (i.e. Professor Craig Anderson's). Conversely, MA15+ (and R18+) games _do_ show the evidence of consequences. Her argument supports _more realistic violence in games_.
 
 She claims that it would be desirable to develop a whole separate classification system for games. There have been suggestions from within the pro-R18+ movement that Australia should instead adopt the PEGI rating system. Handsley, however, has stated that "classifications applied overseas - under different schemes, with different criteria, in different cultures ... tell us nothing about what the classification should be here."
 
@@ -116,7 +116,7 @@ fn2. 'Could' rather than 'should' so as not to confuse what 'is' with what 'ough
 
 fn3. Britain currently uses both the BBFC and PEGI systems. PEGI will officially replace the BBFC for games ratings in April 2011.
 
-fn4. For more details see for example, Kutner, L. and Olson, C.K., Grand theft childhood: The truth about violent video games (and what parents can do).
+fn4. For more details see for example, Kutner, L. and Olson, C.K., _Grand theft childhood: The truth about violent video games (and what parents can do)_.
 
 fn5. If there were, one might expect that allowing children to play games like 'Cops & Robbers' should therefore have an even greater effect. As it happens, the current research suggests that allowing children to play make-believe violent games is crucial to the development of empathy.
 
