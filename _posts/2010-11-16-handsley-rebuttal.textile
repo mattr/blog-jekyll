@@ -12,7 +12,7 @@ In calling the pro-R18+ lobby's arguments ""spectacularly disingenuous":http://w
 
 In her article, Laura Parker of GameSpot Australia stated the following:
 
-bq. A large number of respondents also made similar comments in the "free text" option of the public consultation - more than 2000 people said that a lack of an R18+ classification for video games restricts the civil liberties of adult gamers and leads to the incorrect classification of content.
+bq. A large number of respondents also made similar comments in the "free text" option of the public consultation -- more than 2000 people said that a lack of an R18+ classification for video games restricts the civil liberties of adult gamers and leads to the incorrect classification of content.
 
 While not being the best-constructed sentence, the intent is clear. That is, respondents were concerned about two issues: the restriction of civil liberties and the incorrect classification of material. Two separate issues. Yet Professor Handsley equivocates the two in an argument that would make the Mad Hatter proud:
 
@@ -24,7 +24,7 @@ What happens in reality is that _some_ material is being made available to minor
 
 Professor Handsley doesn't stop there, however. She claims that other classification schemes provide no useful information about classification in Australia.
 
-bq. 1. Misclassification. Parker bases this assertion on the classifications applied overseas - under different schemes, with different criteria, in different cultures. These tell us nothing about what the classification should be here.
+bq. 1. Misclassification. Parker bases this assertion on the classifications applied overseas -- under different schemes, with different criteria, in different cultures. These tell us nothing about what the classification should be here.
 
 This is, to quote Wolfgang Pauli, "not even wrong". In fact, comparison with other systems provides a great deal of information about what the classification could be here.[2] Why? Because there is already a large body of data available for comparison: that is, _every game that's already been classified_.
 
