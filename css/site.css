@@ -25,6 +25,7 @@ blockquote, pre, .equation {
 }
 code, .equation {
   font: 13px/1.4 Inconsolata, "courier new", courier;
+  overflow: auto;
 }
 .equation .eqNo {
   float: right;
