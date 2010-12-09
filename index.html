@@ -3,7 +3,7 @@ layout: default
 ---
 {% for post in site.posts limit:5 %}
 <div class="post">
-  <h1><a href="{{ site.base }}{{ post.url }}">{{ post.title }}</a></h1>
+  <h1><a href="{{ site.base }}{{ post.url }}">{{ post.title }}</a><span class="arrow"></span></h1>
   <span class="date">{{ post.date | date_to_string }}</span>
   <div class="entry">
     {{ post.content }}
@@ -12,6 +12,6 @@ layout: default
     <a href="{{ site.base }}{{ post.url }}#comments">Comments</a>
   </p>
 </div>
-<hr />
+<br />
 {% endfor %}
 <a href="{{ site.base }}/archive/">Archive</a>

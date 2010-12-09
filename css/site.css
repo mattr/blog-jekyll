@@ -131,7 +131,18 @@ footer a:hover {
   width: 700px;
 }
 .post h1 {
-  font-size: 19px;
+  background: #e3e3e3;
+  background: -moz-linear-gradient(top, #e3e3e3, #c8c8c8);
+  background: -webkit-gradient(linear, left top, left bottom, from(#e3e3e3), to(#c8c8c8));
+  -moz-box-shadow: 1px 1px 3px #292929;
+  -webkit-box-shadow: 1px 1px 3px #292929;
+  color: #454545;
+  font-size: 18px;
+  margin-left: -40px;
+  padding: 10px 40px;
+  position: relative;
+  text-shadow: 0 1px 0 white;
+  width: 90%;
 }
 .post h1 a, .post h1 a:visited {
   color: #333;
@@ -178,6 +189,17 @@ footer a:hover {
   clear: right;
   margin-bottom: 5px;
   margin-left: 2em;
+}
+
+
+.arrow {
+    position: absolute;
+    height: 0; width: 0;
+    line-height: 0;
+    border-left: 20px solid transparent;
+    border-top: 10px solid #c8c8c8;
+    top: 104%;
+    left: 0;
 }
 
 /* Syntax highlighting */

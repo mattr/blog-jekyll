@@ -6,9 +6,8 @@
   <meta name="keywords" content="{{ tags }}" />
   <title>{{ site.title }}</title>
   <link href="{{ site.base }}/css/site.css" rel="stylesheet" type="text/css" media="screen,projection" />
-  <!--[if lt IE 9]>
-  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-  <![endif]-->
+  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <!--[if IE]><style>.arrow { top: 100%; }</style><![endif]-->
   {% if site.disqus_developer == 1 %}
     <script type="text/javascript">
       disqus_developer = 1;
@@ -22,7 +21,7 @@
     <div id="content">
       <div id="main">
         <div class="post">
-          <h1>{{ page.title }}</h1>
+          <h1>{{ page.title }} <span class="arrow"></span></h1>
           <span class="date">{{ page.date | date_to_string }}</span>
           <div class="entry">
             {{ content }}
