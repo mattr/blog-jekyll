@@ -63,7 +63,16 @@ header {
 footer {
   font-size: 11px;
   line-height: 180%;
+  position: relative;
   text-align: center;
+}
+footer img {
+  position: absolute;
+    top: 10px; left: 0px;
+}
+footer #footer-text {
+  position: absolute;
+    top: 15px; left: 100px;
 }
 footer a, footer a:visited {
   color: #eee;
@@ -205,6 +214,9 @@ footer a:hover {
 /* Syntax highlighting */
 .lineno { color: #00c; padding-right: 10px; }
 .c1 { color: #906030; font-style: italic; }
-.k, .nb { color: #303060; }
-.o, .mi { color: #00c; }
+.k { color: #704010; }
+.nb { color: #303060; }
+.mi { color: #00c; }
+.s1 { color: #407040; }
 .s2, .sr { color: #306030; }
+.ss { color: #00417c; }
