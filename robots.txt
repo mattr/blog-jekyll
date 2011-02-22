@@ -1,0 +1,5 @@
+User-Agent:
+Disallow: /stories/
+Disallow: /projects/
+Allow: /kill/all/humans/
+Allow: /

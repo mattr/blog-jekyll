@@ -1,4 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Inconsolata);
+@import url(http://fonts.googleapis.com/css?family=Lato);
+
 /* Reset */
 header, footer, section { display: block; }
 /* Global */
@@ -6,14 +8,17 @@ body {
   background: #333;
   color: #f9f9f9;
   font: 400 13px/1.8 "Helvetica Neue", Arial, Helvetica, sans-serif;
+/*  font: 400 13px/1.8 "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;*/
 }
 h1 {
+  font-family: Lato;
   font-weight: normal;
   margin: 0;
   padding: 5px 0;
   line-height: 100%;
 }
 h2 {
+  font-family: Lato;
   font-size: 17px;
   font-weight: normal;
 }
@@ -50,6 +55,7 @@ a:hover {
   text-decoration: none;
 }
 header, footer {
+  font-family: Lato;
   letter-spacing: .5em;
   margin-left: 10px;
   margin-right: 10px;
@@ -146,6 +152,7 @@ footer a:hover {
   -moz-box-shadow: 1px 1px 3px #292929;
   -webkit-box-shadow: 1px 1px 3px #292929;
   color: #454545;
+  font-family: Lato;
   font-size: 18px;
   margin-left: -40px;
   padding: 10px 40px;
