@@ -7,7 +7,7 @@ header, footer, section { display: block; }
 body {
   background: #333;
   color: #f9f9f9;
-  font: 400 13px/1.8 "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font: 400 13px/1.8 "Helvetica Neue", Helvetica, Arial, sans-serif;
 /*  font: 400 13px/1.8 "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;*/
 }
 h1 {
