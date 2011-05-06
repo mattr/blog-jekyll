@@ -1,5 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Inconsolata);
 @import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans);
 
 /* Reset */
 header, footer, section { display: block; }
@@ -7,8 +8,10 @@ header, footer, section { display: block; }
 body {
   background: #333;
   color: #f9f9f9;
-  font: 400 13px/1.8 "Helvetica Neue", Arial, Helvetica, sans-serif;
+/*  font: 400 13px/1.8 "Century Gothic", "Helvetica Neue", Arial, Helvetica, sans-serif;*/
 /*  font: 400 13px/1.8 "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;*/
+/*  font: 400 14px/1.8 "PT Sans", Helvetica, sans-serif;*/
+  font: 300 15px/1.8 helvetica, arial, sans-serif;
 }
 h1 {
   font-family: Lato;
@@ -23,14 +26,20 @@ h2 {
   font-weight: normal;
 }
 blockquote, pre, .equation {
-  background: #fff;
   margin-left: 25px;
   margin-right: 25px;
   padding: 10px;
 }
-code, .equation {
-  font: 13px/1.4 Inconsolata, "courier new", courier;
+blockquote, .equation {
+  background: #efefef;
+  color: #333;
+}
+pre {
+  background: #404040;
+  color: #fcfcfc;
+  font: 15px/1.4 Inconsolata, "courier new", courier;
   overflow: auto;
+  width: 90%;
 }
 .equation .eqNo {
   float: right;
@@ -39,8 +48,11 @@ code, .equation {
 p, li {
   text-align: justify;
 }
-strong {
+strong, b {
   font-weight: 600;
+}
+em, i {
+  font-weight: 300;
 }
 a {
   color: #666;
@@ -219,11 +231,11 @@ footer a:hover {
 }
 
 /* Syntax highlighting */
-.lineno { color: #00c; padding-right: 10px; }
-.c1 { color: #906030; font-style: italic; }
-.k { color: #704010; }
-.nb { color: #303060; }
-.mi { color: #00c; }
-.s1 { color: #407040; }
-.s2, .sr { color: #306030; }
-.ss { color: #00417c; }
+.lineno { color: #cfcfcf; padding-right: 10px; }
+.c1 { color: #c09060; font-style: italic; }
+.k { color: #a07040; }
+.nb { color: #606090; }
+.mi { color: #6f6ffc; }
+.s1 { color: #70a070; }
+.s2, .sr { color: #609060; }
+.ss { color: #3071ac; }
