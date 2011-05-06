@@ -8,9 +8,6 @@ header, footer, section { display: block; }
 body {
   background: #333;
   color: #f9f9f9;
-/*  font: 400 13px/1.8 "Century Gothic", "Helvetica Neue", Arial, Helvetica, sans-serif;*/
-/*  font: 400 13px/1.8 "Lato", "Helvetica Neue", Arial, Helvetica, sans-serif;*/
-/*  font: 400 14px/1.8 "PT Sans", Helvetica, sans-serif;*/
   font: 300 15px/1.8 helvetica, arial, sans-serif;
 }
 h1 {
