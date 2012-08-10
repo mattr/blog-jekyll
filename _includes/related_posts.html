@@ -1,0 +1,6 @@
+<h2>(Possibly) Related Articles</h2>
+<ul class="related_posts">
+  {% for post in site.related_posts limit:3 %}
+  <li><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title | truncatewords:5 }}</a></li>
+  {% endfor %}
+</ul>

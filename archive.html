@@ -1,10 +1,10 @@
 ---
-title: Blog Archive
 layout: default
+title: Archive
 ---
-<dl id="archive">
+<dl>
 {% for post in site.posts %}
-  <dt>{{ post.date | date_to_string }}</dt>
-  <dd><a href="{{ site.base }}{{ post.url }}">{{ post.title }}</a></dd>
+	<dt>{{ post.date | date_to_string }}</dt>
+	<dd><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></dd>
 {% endfor %}
 </dl>

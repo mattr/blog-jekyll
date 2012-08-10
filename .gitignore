@@ -3,3 +3,4 @@ _site/
 _config.yml
 .redcar/
 *.swp
+.rbenv-version

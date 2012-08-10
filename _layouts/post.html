@@ -1,63 +1,36 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="description" content="{{ page.summary }}" />
-  <meta name="keywords" content="{{ tags }}" />
-  <title>{{ page.title }} - {{ site.title }}</title>
-  <link href="{{ site.base }}/css/site.css" rel="stylesheet" type="text/css" media="screen,projection" />
-  <link href="{{ site.base }}/css/gh-buttons.css" rel="stylesheet" type="text/css" media="screen,projection" />
-  <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-  <!--[if IE]><style>.arrow { top: 100%; }</style><![endif]-->
-  {% if site.disqus_developer == 1 %}
-    <script type="text/javascript">
-      disqus_developer = 1;
-    </script>
-  {% endif %}
-</head>
-<body>
-  <div id="wrapper">
-    {% include header.html %}
-
-    <div id="content">
-      <div id="main">
-        <div class="post">
-          <h1>{{ page.title }} <span class="arrow"></span></h1>
-          <span class="date">{{ page.date | date_to_string }}</span>
-          <div class="entry">
-            {{ content }}
-          </div>
-          <div id="navigation">
-            {% if page.previous %}
-            <a href="{{ site.base }}{{ page.previous.url }}" class="button" id="previous">&lsaquo; Previous: {{ page.previous.title }}</a>
-            {% endif %}
-            {% if page.next %}
-            <a href="{{ site.base }}{{ page.next.url }}" class="button" id="next">Next: {{ page.next.title }} &rsaquo;</a>
-            {% endif %}
-          </div>
-          <div class="clear"></div>
-          <hr />
-          <div id="related">
-            <h2>Possibly Related Posts (automatically generated)</h2>
-            <dl class="posts">
-              {% for post in site.related_posts limit:3 %}
-              <dt>{{ post.date | date_to_string }}</dt>
-              <dd><a href="{{ site.base }}{{ post.url }}">{{ post.title }}</a></dd>
-              {% endfor %}
-            </dl>
-          </div>
-          <hr />
-          {% if site.disqus %}
-          <div id="comments">
-            <div id="disqus_thread"></div><script type="text/javascript" src="http://disqus.com/forums/{{ site.disqus }}/embed.js"></script><noscript><a href="http://{{ site.disqus }}.disqus.com/?url=ref">View the discussion thread.</a></noscript><a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
-          </div>
-          <hr />
-          {% endif %}
-          <a href="{{ site.base }}/archive/">Archive</a>
-      </div>
+---
+layout: default
+---
+<div class="posts">
+  <article class="post">
+    <h1>{{ page.title }}</h1>
+    <p class="meta">{{ page.date | date_to_string }}</p>
+    <div class="body">
+      {{ content }}
+      <p class="meta">
+        {% if page.previous %}
+        <span style="float:left;">
+          <a href="{{ site.baseurl }}{{ page.previous.url }}">&lsaquo; Previous: {{ page.previous.title | truncatewords:5 }}</a>
+        </span>
+        {% endif %}
+        {% if page.next %}
+        <span style="float:right">
+          <a href="{{ site.baseurl }}{{ page.next.url }}" class="button right" id="next">Next: {{ page.next.title | truncatewords:5 }} &rsaquo;</a>
+        </span>
+        {% endif %}
+      </p>
+      <div style="clear:both"></div>
     </div>
-
-    {% include footer.html %}
-  </div>
-</body>
-</html>
+    <!--/.body -->
+    <section class="comments" id="comments">
+      <h2>Comments</h2>
+      <div id="disqus_thread"></div>
+      <script type="text/javascript" src="http://disqus.com/forums/mattredmond/embed.js"></script>
+      <noscript><a href="http://mattredmond.disqus.com/?url=ref">View the discussion thread.</a></noscript>
+      <a href="http://disqus.com" class="dsq=brlink">Blog comments powered by <span class="logo-disqus">Disqus</span></a>
+    </section>
+    <!--/.comments -->
+  </article>
+  <!--/.post -->
+</div>
+<!--/.posts -->

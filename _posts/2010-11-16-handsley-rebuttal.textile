@@ -122,6 +122,6 @@ fn5. If there were, one might expect that allowing children to play games like '
 
 fn6. As a crude analogy, consider the case of someone viewing pornography on a public library computer. While it is technically not illegal, one would be hard-pressed to argue that it could ever be appropriate.
 
-fn7. See, for example, http://intouchwiththeobvious.wordpress.com/2009/08/12/risen-refused-classification/
+fn7. See, for example, "here":{{ site.baseurl }}{% post_url 2009-08-12-risen-refused-classification %}.
 
 fn8. Or suffer on with the current implementation.

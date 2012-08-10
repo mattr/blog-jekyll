@@ -6,7 +6,7 @@ I was excited about the release of _Divinity II: The Dragon Knight Saga_, even t
 
 Then I noticed this:
 
-!{{ site.base }}/images/securom-divinity-ii.png!
+!{{ site.baseurl }}/images/securom-divinity-ii.png!
 
 New publisher, new stupid DRM. Note that the original _D2:ED_ version has no 3rd party DRM on "Steam":http://store.steampowered.com/app/27220/. (I purchased the retail version, also without this restriction.)
 
@@ -22,4 +22,4 @@ I can sort of understand the idea of limiting the number of machines the game ca
 
 So "this":http://store.steampowered.com/app/39690/ makes even less sense:
 
-!{{ site.base }}/images/securom-arcania.png!
+!{{ site.baseurl }}/images/securom-arcania.png!

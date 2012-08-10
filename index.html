@@ -1,17 +1,21 @@
 ---
+title: in touch with the obvious... mostly.
 layout: default
 ---
-{% for post in site.posts limit:5 %}
-<div class="post">
-  <h1><a href="{{ site.base }}{{ post.url }}">{{ post.title }}</a><span class="arrow"></span></h1>
-  <span class="date">{{ post.date | date_to_string }}</span>
-  <div class="entry">
-    {{ post.content }}
-  </div>
-  <p class="more">
-    <a href="{{ site.base }}{{ post.url }}#comments" class="button">Comments</a>
-  </p>
+<div class="posts">
+  {% for post in site.posts limit:5 %}
+  <article class="post">
+    <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+    <p class="meta">{{ post.date | date_to_string }}</p>
+    <section class="body">
+      {{ post.content }}
+      <p class="meta"><a href="{{ site.baseurl }}{{ post.url }}#comments">Comments</a></p>
+    </section>
+    <!--/.body -->
+  </article>
+  <!--/.post -->
+  {% endfor %}
 </div>
-<br />
-{% endfor %}
-<a href="{{ site.base }}/archive/">Archive</a>
+<!--/.posts -->
+<hr />
+<p><a href="{{ site.baseurl }}/archive/">Older posts</a></p>
