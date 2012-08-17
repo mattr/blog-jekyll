@@ -1,6 +1,7 @@
+_config.yml
+.rbenv-version
 config/
 _site/
-_config.yml
-.redcar/
-*.swp
-.rbenv-version
+.bundle/
+bin/
+.DS_Store

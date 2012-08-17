@@ -2,7 +2,7 @@
 layout: post
 title: Support the Marriage Equality Amendment Bill 2009
 ---
-*REPOSTED FROM THE [OLD SITE](http://wp.me/pmPll-58)**
+**REPOSTED FROM THE [OLD SITE](http://wp.me/pmPll-58)**
 
 [Australian Marriage Equality](http://www.australianmarriageequality.com/senatesubmission.htm) is calling for support for the Marriage Equality Amendment Bill 2009, which would alter the wording of the Marriage Act 1969 to allow unions between same-sex couples.  The inquiry has recently been flooded by anti-gay submissions by the Religious Right. Do your bit to redress the issue. My submission is below, and may be used in whole or in part by anyone wishing to support the amendment.
 

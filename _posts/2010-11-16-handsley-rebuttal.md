@@ -24,7 +24,7 @@ What happens in reality is that _some_ material is being made available to minor
 
 Professor Handsley doesn't stop there, however. She claims that other classification schemes provide no useful information about classification in Australia.
 
-> 1. Misclassification. Parker bases this assertion on the classifications applied overseas -- under different schemes, with different criteria, in different cultures. These tell us nothing about what the classification should be here.
+> 1\. Misclassification. Parker bases this assertion on the classifications applied overseas -- under different schemes, with different criteria, in different cultures. These tell us nothing about what the classification should be here.
 
 This is, to quote Wolfgang Pauli, "not even wrong". In fact, comparison with other systems provides a great deal of information about what the classification could be here.[^2] Why? Because there is already a large body of data available for comparison: that is, _every game that's already been classified_.
 
@@ -44,7 +44,7 @@ _All_ classification systems, by their very nature, consider the context. Contex
 
 Actually, adding a new classification would achieve _exactly_ this. If R18+ material requires an adult to purchase (as it rightly should), it becomes the responsibility of the parent or guardian to determine whether a minor should have access to it. Handsley offers no evidence to the contrary, merely the assertion that it is so.
 
-> 2. Lack of proof. It could never be proved to 100 per cent certainty that exposure to violent video games has detrimental effects on thoughts, attitudes and behaviour. The experiments needed to do so would be unethical.
+> 2\. Lack of proof. It could never be proved to 100 per cent certainty that exposure to violent video games has detrimental effects on thoughts, attitudes and behaviour. The experiments needed to do so would be unethical.
 > 
 > However we do have the results of a meta-analysis conducted by Professor Craig Anderson, published in the Psychological Bulletin this year. It found, based on 136 studies involving more than 130,000 participants, that exposure to violent video games is a causal risk factor for aggressive behaviour, aggression-related thoughts and feelings, and decreases in empathy and pro-social behaviour.
 > 
@@ -66,7 +66,7 @@ Again, Handsley deliberately obfuscates the issues in question. And there is a n
 
 There is also an equivocation implied by Handsley that concern is necessitated by scientific evidence. She conflates what is legal with what is appropriate.[^6] Parents should always concern themselves with their children's media habits; simply because it is legal for a 15-year-old to purchase a game does not in itself mean that such a game is appropriate for every 15-year-old. It is parents who are in the best position to determine what is appropriate for their own children. Proponents argue that the inclusion of an R18+ classification gives parents additional information to make such an assessment.
 
-> 3. Adults missing out. It does appear that Australian gamers miss out on some things, such as the choice of which sex their character commits with a prostitute, which was removed from Grand Theft Auto so it could fit the MA15+.
+> 3\. Adults missing out. It does appear that Australian gamers miss out on some things, such as the choice of which sex their character commits with a prostitute, which was removed from Grand Theft Auto so it could fit the MA15+.
 
 Thank you, Professor Handsley, for your condescending attempt to trivialise the issue. There's an interesting point Handsley either doesn't know or ignores about _GTA4_. Both the censored and uncensored version were released in Australia with exactly the same rating. The console release was censored prior to submission (presumably to avoid the costs of either resubmission or appeal), yet the PC version was submitted in its uncensored form.
 

@@ -18,7 +18,7 @@ So _VTM:B_ has a clear-cut case where prostitution (or the solicitation of prost
 
 The next game that came to mind was _The Witcher_, where the player is rewarded with 'trading-cards' of his female conquests. Frequently, sexual interaction with the characters is the reward of a quest (often very minor); sometimes it may be a traded item; in one or two cases, it serves to advance the plot.
 
-> [Brugleweed is] commonly referred to in text and dialogue as 'weed' or a 'weed reefer' and rewarded players who used it with experience points, failed to meet acceptable classification guidelines. In Risen, a player can both trade and smoke this drug, which mirrors an illegal 'real-world' drug in its terminology, use, and depiction.
+> \[Brugleweed is\] commonly referred to in text and dialogue as 'weed' or a 'weed reefer' and rewarded players who used it with experience points, failed to meet acceptable classification guidelines. In Risen, a player can both trade and smoke this drug, which mirrors an illegal 'real-world' drug in its terminology, use, and depiction.
 
 Apart from the 'terminology', that description also essentially applies to tobacco. But enough semantics, onto some examples.
 

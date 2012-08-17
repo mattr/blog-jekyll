@@ -25,7 +25,7 @@ The fact that only ~2% of households with dependent children chose to use the fi
 
 If we are to believe Sen Conroy that the previous government spent $84.8 million on the program and $15.5 million in advertising, my money's on (2). (Although I have to admit, I don't recall seeing any of this advertising, so (1) might have a few more points than I credit it.)
 
-> [I]n conjunction with the Government's numerous other initiatives in this area, we believe it [ISP-level filtering] can make an important contribution to protecting children online.
+> \[I\]n conjunction with the Government's numerous other initiatives in this area, we believe it \[ISP-level filtering\] can make an important contribution to protecting children online.
 
 Senator, once again, I, like so many others, call upon you to explain just how the ISP-level filter will be at all beneficial. All we get is that it will be an 'important contribution' alongside all your other initiatives. Furthermore, we're still waiting for a definition of this 'important contribution'. That's all we get. Words. Meaningless words.
 
