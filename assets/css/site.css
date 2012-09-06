@@ -3,6 +3,7 @@ p{margin-bottom:1.7189999999999999em;}
 a{color:#9b1a2e;}a:visited{color:#74202f;}
 a:hover{color:#be162d;}
 h1,h2,h3,h4,h5,h6{font-weight:400;}h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{text-decoration:none;}
+hr{height:0;border:none;border-top:1px solid rgba(0, 0, 0, 0.25);}
 .container{width:62.79299999999999em;margin:auto;margin-bottom:1em;clear:both;}
 header{margin-left:17.346999999999998em;}header h1{font-size:2.4379999999999997em;}
 header h2{font-size:1.7189999999999999em;font-weight:300;}
